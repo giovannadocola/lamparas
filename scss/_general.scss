@@ -55,6 +55,18 @@ footer {
     text-decoration: none;
    }
    
+   @media (max-width:768px){
+    .navbar-nav{
+      padding: 20%;
+    a{
+          color: #FFFCF2;
+          text-decoration: none;}
+           a:hover{
+           color: #EE7444;
+         }
+ 
+     }
+   }
 
 
 
