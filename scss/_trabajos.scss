@@ -1,0 +1,86 @@
+.primerParrafo{
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+  .trabajosdestacados{
+    display: flex;
+    padding-bottom: 70px;
+  }
+
+ .lamp2{
+    
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    text-align: left;
+    
+  } 
+
+
+.vermastrabajos{
+    text-align: center;
+    align-content: center;
+    font-family: 'Bitter';
+    letter-spacing: 0.3em;
+    font-weight: 300;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 1%;
+    font-size: 12px;
+    text-align: center;
+    width: 25%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    margin-left: 35%;
+}
+.vermastrabajos:hover {
+        background-color: nth($color,3);
+    }  
+
+@media (max-width:768px){
+    .vermastrabajos{
+        text-align: center;
+        align-content: center;
+        font-family: 'Bitter';
+        font-weight: 50px;
+        border: 1px solid;
+        border-radius: 40px;
+        padding: 1%;
+        font-size: 5px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 8%;
+        margin-top: 8%;
+        margin-left: 20%;
+    
+
+}
+
+.primerParrafo{
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+  .trabajosdestacados{
+    display: flex;
+    padding-bottom: 20px;
+    
+  }
+
+ .lamp2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 80%;
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right: 15%;
+    padding-right: 20%;
+    
+    
+    
+  } 
+  .imagenesTrabajos{
+    height: 300px;
+    width: 350px;
+  }
+}

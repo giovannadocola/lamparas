@@ -1,0 +1,27 @@
+.nuestrosproductostitulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 5%;
+  }
+.products{
+    padding: 5% 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    gap: 30px;
+    }
+  
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .products{
+        grid-template-columns: 1fr;
+    }  
+}
