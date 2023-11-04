@@ -1,87 +1,80 @@
 .contactoh1{
-    margin-top: 50px;
-    font-family: nth($fuente,2);
-    margin-left: 100px;
-    font-weight: bold;
-    text-align: center;
+  margin-top: 50px;
+  font-family: nth($fuente,2);
+  font-weight: bold;
+  text-align: center;
+  
 }
 .consulta{
-    font-family: nth($fuente,2);
-    margin-left: 100px;
-    text-align: center;
-    font-size: bold;
+  font-family: nth($fuente,2);
+  text-align: center;
+  font-size: bold;
 }
 .col-12 {
-    font-family: nth($fuente,2);
-    margin-left: 500px;
-    padding-right: 800px;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    align-items: flex-start;
-   
-  }
+  font-family: nth($fuente,2);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+
+}
+
+.form-control{
+  height: 70px;
+  width: 500px;
+  align-items: center;
+}
+
+.row{
+  margin-right: 0%;
+}
+  
+.btn{
+  color: nth($color,2);
+  background-color: nth($color,3);
+  font-family: nth($fuente,1);
+}
   
   
-  .btn{
-    color: nth($color,2);
-    background-color: nth($color,3);
-    font-family: nth($fuente,1);
-  }
-  
-  
-     
-  .ubicacion{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    margin-bottom: 50px;
-    padding-right: 210px;
-    margin-top: 20px;
-    font-size: 20px;
-    align-items: center;
-    margin-left: 770px;
-    font-family: nth($fuente,2);
-  }
+.ubicacion{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: nth($fuente,2);
+  align-content: space-around
+}
   
 
-  @media (max-width:768px){
-    .col-12 {
-        font-family: nth($fuente,2);
-        margin-left: 50px;
-        padding-right: 90px;
-        display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        align-items: flex-start;
-       
-      }
-    .contactoh1{
-        margin-top: 30px;
-        font-family: nth($fuente,2);
-        font-size: largue;
-        margin-left: 30px;
-       
-    }
-    .consulta{
-        
-        margin-left: 30px;
-        text-align: center;
-        font-size: bold;
-        margin-bottom: 10px;
-    }
-    .ubicacion{
-      
-      margin-bottom: 30px;
-      padding-right: 10px;
-      margin-top: 20px;
-      align-items: center;
-      margin-left: 50px;
-      font-family: nth($fuente,2);
-    }
-    
-    
-    
+@media (max-width:768px){
+  .col-12 {
+   font-family: nth($fuente,2);
+   display: flex;
+   flex-direction: column;
+   font-size: 20px;
+   align-items: center;
   }
+  .contactoh1{
+   text-align: center;
+   margin-top: 30px;
+   font-family: nth($fuente,2);
+   font-size: largue;
+  }
+  .consulta{
+   text-align: center;
+   font-size: bold;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   font-size: 18px;
+  }
+  .ubicacion{
+   margin-bottom: 30px;
+   margin-top: 20px;
+   align-items: center;
+   font-family: nth($fuente,2);
+  }
+}

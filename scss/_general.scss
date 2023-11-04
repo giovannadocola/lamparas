@@ -6,11 +6,11 @@ body{
   background-color:nth($color,2);
 }
 header{
-    @extend %flexrowcenter;
-    justify-content: space-around;
-    background-color:nth($color,1);
-    color:nth($color,1);
-    margin-right: 0px;
+  @extend %flexrowcenter;
+  justify-content: space-around;
+  background-color:nth($color,1);
+  color:nth($color,1);
+  margin-right: 0px;
 
     .navbar-nav{
      align-items: center;
@@ -19,65 +19,66 @@ header{
      gap: 8rem;
      
       li a{
-         color: nth($color,2);
-         text-decoration: none;
-        
-         }
-          a:hover{
-          color: nth($color,3); 
-          transition: skewY (25deg);
-        }
-
+      color: nth($color,2);
+      text-decoration: none;
+      }
+      a:hover{
+      color: nth($color,3); 
     }
-  }  
+  }
+}  
 
 
 footer {
     background-color: nth($color,1);
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
     .final{
-      display: flex;
-      flex-direction: row;
-      font-family: nth($fuente,1);
-      font-size: 20px;
-      margin-bottom: 20px;
-      color: nth($color,2);
-      justify-content: space-evenly
-    }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: nth($fuente,1);
+    font-size: 20px;
+    color: nth($color,2);
+    
+  }
 }
     
   
-   .arriba{
-    color:nth($color,2);
-    text-decoration: none;
-   }
+.arriba{
+  color:nth($color,3);
+  text-decoration: none;
+}
    
-   @media (max-width:768px){
-    .navbar-nav{
-      padding: 20%;
-    a{
-          color: nth($color,2);
-          text-decoration: none;}
-          a:hover{
-           color: nth($color,3);
-         }
- 
-     }
-   }
-
-   footer{
-    .final{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-family: nth($fuente,1);
-    padding: 30px;
+@media (max-width:768px){
+  .navbar-nav{
+    padding: 20%;
+  a{
+    color: nth($color,2);
+    text-decoration: none;}
+    a:hover{
+      color: nth($color,3);
     }
   }
 
 
+footer{
+  background-color: nth($color,3) ;
+  .final{
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: nth($fuente,1);
+  padding: 30px;
+  }
+ }
+  .arriba{
+  color:nth($color,1);
+  text-decoration: none;
+  }
+}
 
 
 

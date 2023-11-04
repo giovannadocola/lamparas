@@ -1,25 +1,21 @@
+ 
 .primerParrafo{
-    justify-content: space-evenly;
-    flex-direction: row;
-    
+  justify-content: space-evenly;
+  flex-direction: row;
     .trabajosdestacados{
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
     padding-top: 50px;
-    
-    
- }
+  }
 }
 .lamp2{
-    background-color: nth($color,2);
     font-family: nth($fuente,1);
     font-size: medium;
     text-align: left;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 3fr);
-    padding-left: 50px;
     align-items: center;
     justify-items: center;
     }
@@ -42,27 +38,14 @@
     margin-left: 35%;
 }  
 .vermastrabajos:hover {
-        background-color: nth($color,3);
-}  
-@media (max-width:768px){
-    .vermastrabajos{
-        text-align: center;
-        align-content: center;
-        font-family: nth($fuente,2);
-        font-weight: 50px;
-        border: 1px solid;
-        border-radius: 40px;
-        padding: 1%;
-        font-size: 5px;
-        width: 50%;
-        margin-bottom: 8%;
-        margin-top: 8%;
-        margin-left: 20%;
-    
-
+   background-color: nth($color,3);
 }
 
-.primerParrafo{
+
+@media (max-width:768px){
+  
+
+  .primerParrafo{
     justify-content: space-evenly;
     flex-direction: row;
     
@@ -73,26 +56,19 @@
     
   }
 
- .lamp2{
+  .lamp2{
     font-family: nth($fuente,1);
     font-size: 90%;
     text-align: left;
     margin-top: 5%;
-    margin-right: 10%;
-    padding-right: 10%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    padding-left: 50px;
     align-items: center;
     justify-items: center;
   }
   .vermastrabajos:hover {
     background-color: nth($color,3);
   }
-   
-  .imagenesTrabajos{
-    height: 300px;
-    width: 350px;
-  }
+
 }
